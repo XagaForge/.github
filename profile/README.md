@@ -7,7 +7,7 @@ This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redm
 * [**Device Tree (xaga)**](https://github.com/XagaForge/android_device_xiaomi_xaga.git) (`android_device_xiaomi_xaga`)
 * [**Device Tree (mt6895)**](https://github.com/XagaForge/android_device_xiaomi_mt6895-common.git) (`android_device_xiaomi_mt6895-common`)
 * [**Kernel Tree**](https://github.com/XagaForge/android_kernel_xiaomi_mt6895.git) (`android_kernel_xiaomi_mt6895`)
-* [**Vendor Tree (xaga)**](https://gitlab.com/priiii1808/android_vendor_xiaomi_xaga.git) (`android_vendor_xiaomi_xaga`)
+* [**Vendor Tree (xaga)**](https://gitlab.com/priiii08918/android_vendor_xiaomi_xaga.git) (`android_vendor_xiaomi_xaga`)
 * [**Vendor Tree (mt6895)**](https://github.com/XagaForge/android_vendor_xiaomi_mt6895-common.git) (`android_vendor_xiaomi_mt6895-common`)
 * [**Firmware Tree**](https://github.com/XagaForge/android_vendor_firmware.git) (`android_vendor_firmware`)
 * [**MiuiCamera Tree**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
