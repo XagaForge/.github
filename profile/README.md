@@ -9,10 +9,12 @@ This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redm
 * [**Kernel Tree**](https://github.com/XagaForge/android_kernel_xiaomi_mt6895.git) (`android_kernel_xiaomi_mt6895`)
 * [**Vendor Tree (xaga)**](https://gitlab.com/priiii08918/android_vendor_xiaomi_xaga.git) (`android_vendor_xiaomi_xaga`)
 * [**Vendor Tree (mt6895)**](https://github.com/XagaForge/android_vendor_xiaomi_mt6895-common.git) (`android_vendor_xiaomi_mt6895-common`)
+* [**Mediatek Hardware Tree**](https://github.com/XagaForge/android_hardware_mediatek.git) (`android_hardware_mediatek`)
+* [**Xiaomi Hardware Tree**](https://github.com/XagaForge/android_hardware_xiaomi.git) (`android_hardware_xiaomi`)
 * [**Firmware Tree**](https://github.com/XagaForge/android_vendor_firmware.git) (`android_vendor_firmware`)
 * [**MiuiCamera Tree**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
 
-Repositories such as `android_hardware_mediatek`, `android_hardware_xiaomi` and `android_device_mediatek_sepolicy_vndr` remain unmodified and can be used directly from the [xiaomi-mt6895-devs](https://github.com/xiaomi-mt6895-devs) organization.
+The `android_device_mediatek_sepolicy_vndr` repository remains unmodified and can be used directly from the [xiaomi-mt6895-devs](https://github.com/xiaomi-mt6895-devs) organization.
 
 
 ### External patch
