@@ -16,5 +16,9 @@ This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redm
 * [**Firmware**](https://github.com/XagaForge/android_vendor_firmware.git) (`android_vendor_firmware`, only used when not building fastboot)
 * [**MiuiCamera**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
 
-### External patch (for fastboot package)
+### Required patches
+* [**MediaTek changes for wpa_supplicant_8**](https://github.com/Nothing-2A/android_external_wpa_supplicant_8/commit/39200b6c7b1f9ff1c1c6a6a5e4cd08c6f526d048) (`android_external_wpa_supplicant_8`)
+* [**Enable WAPI for wpa_supplicant_8**](https://github.com/Nothing-2A/android_external_wpa_supplicant_8/commit/37a6e255d9d68fb483d12db550028749b280509b) (`android_external_wpa_supplicant_8`)
+
+### Optional patch (for fastboot package)
 * [vendor: Add fastboot packages build](https://github.com/AresOS-UDC/vendor_lineage/commit/19afe7c7e98c9ff5f57c57d09edfa954142e65b6) (Requires adaptation depending on the ROM which it is applied on)
