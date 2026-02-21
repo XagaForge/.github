@@ -1,24 +1,25 @@
 ## Xaga Project - Personal extras
-<img align="right" width="180" height="180" src="https://camo.githubusercontent.com/5b983921617d1bc2bf4aeb8a47f66d740124e6da8f7399ff82ae4a98a3eb4db2/68747470733a2f2f63646e2e636e626a302e6664732e6170692e6d692d696d672e636f6d2f6232632d73686f706170692d706d732f706d735f313635333338343536382e353639383538382e706e67">
+<img align="right" width="180" height="180" src="https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1653384568.5698588.png">
 
-This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redmi K50i / Redmi Note 11T Pro(+) (xaga) with personal additions and modifications over [xiaomi-mt6895-devs](https://github.com/xiaomi-mt6895-devs) trees.
+This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redmi K50i / Redmi Note 11T Pro(+) (xaga) with some extra additions and modifications over [xiaomi-mt6895-devs](https://github.com/xiaomi-mt6895-devs) trees. Currently supporting: Android 16 QPR2 (16.2 branches)
 
-### Repositories
+### Required device specific repositories
 * [**Device Tree (xaga)**](https://github.com/XagaForge/android_device_xiaomi_xaga.git) (`android_device_xiaomi_xaga`)
-* [**Device Tree (mt6895)**](https://github.com/XagaForge/android_device_xiaomi_mt6895-common.git) (`android_device_xiaomi_mt6895-common`)
+* [**Device Tree (common)**](https://github.com/XagaForge/android_device_xiaomi_mt6895-common.git) (`android_device_xiaomi_mt6895-common`)
 * [**Vendor Tree (xaga)**](https://gitlab.com/priiii08918/android_vendor_xiaomi_xaga.git) (`android_vendor_xiaomi_xaga`)
-* [**Vendor Tree (mt6895)**](https://github.com/XagaForge/android_vendor_xiaomi_mt6895-common.git) (`android_vendor_xiaomi_mt6895-common`)
+* [**Vendor Tree (common)**](https://github.com/XagaForge/android_vendor_xiaomi_mt6895-common.git) (`android_vendor_xiaomi_mt6895-common`)
 * [**Kernel Sources**](https://github.com/XagaForge/android_kernel_xiaomi_mt6895.git) (`android_kernel_xiaomi_mt6895`)
-* [**Mediatek IMS**](https://github.com/XagaForge/android_vendor_mediatek_ims.git) (`android_vendor_mediatek_ims`)
+
+### Other required repositories
 * [**Mediatek Sepolicy**](https://github.com/XagaForge/android_device_mediatek_sepolicy_vndr.git) (`android_device_mediatek_sepolicy_vndr`)
 * [**Mediatek Hardware**](https://github.com/XagaForge/android_hardware_mediatek.git) (`android_hardware_mediatek`)
 * [**Xiaomi Hardware**](https://github.com/XagaForge/android_hardware_xiaomi.git) (`android_hardware_xiaomi`)
-* [**Firmware**](https://github.com/XagaForge/android_vendor_firmware.git) (`android_vendor_firmware`, only used when not building fastboot)
 * [**MiuiCamera**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
 
 ### Required patches
-* [**MediaTek changes for wpa_supplicant_8**](https://github.com/Nothing-2A/android_external_wpa_supplicant_8/commit/39200b6c7b1f9ff1c1c6a6a5e4cd08c6f526d048) (`android_external_wpa_supplicant_8`)
-* [**Enable WAPI for wpa_supplicant_8**](https://github.com/Nothing-2A/android_external_wpa_supplicant_8/commit/37a6e255d9d68fb483d12db550028749b280509b) (`android_external_wpa_supplicant_8`)
+* [**Add a stub of TelephonyMetrics**](https://github.com/Nothing-2A/android_hardware_lineage_compat/commit/0d01b8f5594788cb73be6e39e7ed415a30fd5879) (`android_hardware_lineage_compat`)
+* [**Whitelist Camera Extensions**](https://github.com/crdroidandroid/android_build_soong/commit/9aba260e31d79c8244a67b6e9b2ceef2e522acb6) (`android_build_soong`)
+* [**Whitelist MTK packages**](https://github.com/Nothing-2A/android_build_soong/commit/1d9d22c82c32e207d188a406c61c3d7912ceed31) (`android_build_soong`)
 
 ### Optional patch (for fastboot package)
-* [vendor: Add fastboot packages build](https://github.com/AresOS-UDC/vendor_lineage/commit/19afe7c7e98c9ff5f57c57d09edfa954142e65b6) (Requires adaptation depending on the ROM which it is applied on)
+* [**Add fastboot packages build**](https://github.com/AresOS-AOSP/android_vendor_crdroid/commit/1ef13ea2226a38a897e66531ea7f49696808674e) (Requires adaptation depending on the ROM which it is applied on)
