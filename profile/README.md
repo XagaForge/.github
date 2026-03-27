@@ -16,10 +16,8 @@ This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redm
 * [**Xiaomi Hardware**](https://github.com/XagaForge/android_hardware_xiaomi.git) (`android_hardware_xiaomi`)
 * [**MiuiCamera**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
 
-### Required patches
-* [**Add a stub of TelephonyMetrics**](https://github.com/Nothing-2A/android_hardware_lineage_compat/commit/0d01b8f5594788cb73be6e39e7ed415a30fd5879) (`android_hardware_lineage_compat`)
+### Required patch
 * [**Whitelist Camera Extensions**](https://github.com/crdroidandroid/android_build_soong/commit/9aba260e31d79c8244a67b6e9b2ceef2e522acb6) (`android_build_soong`)
-* [**Whitelist MTK packages**](https://github.com/Nothing-2A/android_build_soong/commit/1d9d22c82c32e207d188a406c61c3d7912ceed31) (`android_build_soong`)
 
 ### Optional patch (for fastboot package)
 * [**Add fastboot packages build**](https://github.com/AresOS-AOSP/android_vendor_crdroid/commit/1ef13ea2226a38a897e66531ea7f49696808674e) (Requires adaptation depending on the ROM which it is applied on)
