@@ -14,10 +14,11 @@ This organization contains repositories to build AOSP ROMs for POCO X4 GT / Redm
 * [**Mediatek Sepolicy**](https://github.com/XagaForge/android_device_mediatek_sepolicy_vndr.git) (`android_device_mediatek_sepolicy_vndr`)
 * [**Mediatek Hardware**](https://github.com/XagaForge/android_hardware_mediatek.git) (`android_hardware_mediatek`)
 * [**Xiaomi Hardware**](https://github.com/XagaForge/android_hardware_xiaomi.git) (`android_hardware_xiaomi`)
-* [**MiuiCamera**](https://gitlab.com/priiii1808/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
+* [**MiuiCamera**](https://github.com/XagaForge/proprietary_vendor_xiaomi_miuicamera-xaga.git) (`proprietary_vendor_xiaomi_miuicamera-xaga`)
 
-### Required patch
-* [**Whitelist Camera Extensions**](https://github.com/crdroidandroid/android_build_soong/commit/9aba260e31d79c8244a67b6e9b2ceef2e522acb6) (`android_build_soong`)
+### Required patches
+* [**Add xiaomi packages to the whitelist**](https://github.com/XagaForge/android_build_soong/commit/fd57a35469af2616f6378bc53516c8c648215f91) (`android_build_soong`)
+* [**Whitelist Camera Extensions**](https://github.com/XagaForge/android_build_soong/commit/dcf3f8a9e601cd4cc220984e8b3c402f143aa843) (`android_build_soong`)
 
 ### Optional patch (for fastboot package)
 * [**Add fastboot packages build**](https://github.com/AresOS-AOSP/android_vendor_crdroid/commit/1ef13ea2226a38a897e66531ea7f49696808674e) (Requires adaptation depending on the ROM which it is applied on)
